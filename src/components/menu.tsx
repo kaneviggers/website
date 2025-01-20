@@ -13,14 +13,14 @@ export function Menu() {
       className="fixed top-0 left-0 w-full z-[50] z-50"
     >
       {/* <div className="z-50 top-0 left-0 w-full"> */}
-      <Dock className="flex justify-around py-4">
+      <Dock className="flex justify-around py-4 rounded-full">
         {/* Home Button */}
         <DockIcon>
           <Link href="/">
             <div
               className={`p-2 ${
                 currentPath === "/" ? "bg-gray-100" : ""
-              } rounded-[10px]`}
+              } rounded-full`}
             >
               <HomeIcon />
             </div>
@@ -33,7 +33,7 @@ export function Menu() {
             <div
               className={`p-2 ${
                 currentPath === "/cv" ? "bg-gray-100" : ""
-              } rounded-[10px]`}
+              } rounded-full`}
             >
               <Scroll />
             </div>
@@ -49,7 +49,7 @@ export function Menu() {
             <div
               className={`p-2 ${
                 currentPath === "/contact" ? "bg-gray-100" : ""
-              } rounded-[10px]`}
+              } rounded-full`}
             >
               <Phone />
             </div>
