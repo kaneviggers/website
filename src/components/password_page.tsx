@@ -23,6 +23,7 @@ export function PasswordPage({ children }: { children: React.ReactNode }) {
       setAuthenticated(true);
     } else {
       toast("Incorrect password")
+      setFormData({password: ""})
     }
   };
 
