@@ -10,6 +10,7 @@ import FlickeringGrid from "@/components/ui/flickering-grid";
 import WordRotate from "@/components/ui/word-rotate";
 import InteractiveHoverButton from "@/components/ui/interactive-hover-button";
 import Marquee from "@/components/ui/marquee";
+import { Menu } from "@/components/menu";
 
 const reviews = [
   {
@@ -90,11 +91,11 @@ const ReviewCard = ({
 
 export default function Home() {
   return (
-    <div className="space-y-10">
+    <div>
       {/* Hero Section */}
-      <div className="relative z-10 flex h-[500px] w-full flex-col items-center justify-center overflow-hidden pointer-events-none">
+      <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden z-[-1]">
         <FlickeringGrid
-          className="absolute inset-0 z-0 pointer-events-non"
+          className="absolute inset-0"
           squareSize={4}
           gridGap={6}
           color="#60A5FA"

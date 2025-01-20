@@ -9,8 +9,10 @@ export function Menu() {
   const currentPath = usePathname();
 
   return (
-    <div className="fixed top-0 left-0 w-full z-[50] bg-white shadow-md" style={{ isolation: 'isolate' }}>
-    {/* <div className="z-50 top-0 left-0 w-full"> */}
+    <div
+      className="fixed top-0 left-0 w-full z-[50] z-50"
+    >
+      {/* <div className="z-50 top-0 left-0 w-full"> */}
       <Dock className="flex justify-around py-4">
         {/* Home Button */}
         <DockIcon>

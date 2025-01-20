@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/kaneviggers/localrepos/personal_site/personal_site/src/pages/home.tsx"],"sourcesContent":["export function HomePage() {\n    \n}"],"names":[],"mappings":";;;AAAO,SAAS,YAEhB"}},
-    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":["file:///Users/kaneviggers/localrepos/personal_site/personal_site/src/app/page.tsx"],"sourcesContent":["\"use client\";\n\nimport React from \"react\";\n\nimport { HomePage } from \"@/pages/home\";\n\nexport default function Home() {\n\n  return (\n    HomePage()\n  );\n}"],"names":[],"mappings":";;;AAIA;AAJA;;AAMe,SAAS;IAEtB,OACE,CAAA,GAAA,qHAAA,CAAA,WAAQ,AAAD;AAEX"}},
-    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}
