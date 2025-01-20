@@ -13,11 +13,11 @@ export function PasswordPage({ children }: { children: React.ReactNode }) {
     password: "",
   });
 
-  const handleChange = (e: any) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = () => {
     if (formData.password == process.env.NEXT_PUBLIC_PREVIEW_PASSWORD) {
       toast("Authenticated")
       setAuthenticated(true);

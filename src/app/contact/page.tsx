@@ -21,11 +21,11 @@ export default function Home() {
     content: "",
   });
 
-  const handleChange = (e:any) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
 
-  const handleSubmit = (e:any) => {
+  const handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
     e.preventDefault();
 
     emailjs.init(process.env.EMAILJS_PUBLIC_KEY!)
