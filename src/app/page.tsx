@@ -10,6 +10,7 @@ import FlickeringGrid from "@/components/ui/flickering-grid";
 import WordRotate from "@/components/ui/word-rotate";
 import InteractiveHoverButton from "@/components/ui/interactive-hover-button";
 import Marquee from "@/components/ui/marquee";
+import BlurFade from "@/components/ui/blur-fade";
 
 const reviews = [
   {
@@ -88,6 +89,8 @@ const ReviewCard = ({
   );
 };
 
+const BLUR_FADE_DELAY = 0.04;
+
 export default function Home() {
   return (
     <div>
@@ -101,11 +104,11 @@ export default function Home() {
           maxOpacity={0.4}
           flickerChance={0.1}
         />
-        <div className="flex flex-col items-center justify-center">
-          <h1 className="text-4xl font-bold text-black dark:text-white">
-            Let’s start creating
-          </h1>
-          <WordRotate
+          <BlurFade inView className="flex flex-col items-center justify-center">
+            <h1 className="text-4xl font-bold text-black dark:text-white">
+              Let’s start creating
+            </h1>
+            <WordRotate
             className="text-4xl font-bold text-black dark:text-white"
             words={[
               "a website",
@@ -124,39 +127,49 @@ export default function Home() {
               transition: { duration: 0.3, ease: "easeOut" },
             }}
           />
-        </div>
+          </BlurFade>
         <div className="absolute bottom-0 w-full h-32 bg-gradient-to-t from-background to-transparent"></div>
       </div>
 
       {/* About me Section */}
       <div className="relative flex justify-between items-start w-full pl-40 pr-40">
         <div className="flex-1 flex flex-col">
+          <BlurFade inView delay={BLUR_FADE_DELAY * 5}>
           <h1 className="text-4xl font-bold text-black dark:text-white">
             Who am i?
           </h1>
+          </BlurFade>
         </div>
         {/* 
           TODO: Rewrite this section
         */}
         <div className="flex-1 space-y-4">
+          <BlurFade delay={BLUR_FADE_DELAY * 6} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
-            Hey, I&apos;m Kane! Orignally from Queenstown, New Zealand and currently
-            in Univserity in Auckland.
+            Hey, I&apos;m Kane! Orignally from Queenstown, New Zealand and
+            currently in Univserity in Auckland.
           </h1>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 7} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
-            Since I was 13 I&apos;ve been beyond interested in computer programming
-            and have been learning ever since.
+            Since I was 13 I&apos;ve been beyond interested in computer
+            programming and have been learning ever since.
           </h1>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 8} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
             I started working as a private contracter soon after and have worked
             in all sorts of different fields, with the added beneift of being a
             fast learner and a great problem solver, I feel very confident in
             picking something new up and running with it.
           </h1>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 9} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
-            I&apos;m always looking for new opportunities and challenges, so if you
-            have something in mind, feel free to reach out!
+            I&apos;m always looking for new opportunities and challenges, so if
+            you have something in mind, feel free to reach out!
           </h1>
+          </BlurFade>
           <div>
             <Link href="/contact">
               <InteractiveHoverButton className="w-40" text="Lets chat!" />
@@ -166,13 +179,13 @@ export default function Home() {
       </div>
 
       {/* Reviews Section */}
-      <div>
-        <Marquee pauseOnHover className="[--duration:20s]">
+      <div className="pt-10 pb-10">
+        <Marquee pauseOnHover className="[--duration:50s]">
           {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}
         </Marquee>
-        <Marquee reverse pauseOnHover className="[--duration:20s]">
+        <Marquee reverse pauseOnHover className="[--duration:50s]">
           {secondRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}
