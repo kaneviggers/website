@@ -136,7 +136,7 @@ export default function Home() {
         <div className="flex-1 flex flex-col">
           <BlurFade inView delay={BLUR_FADE_DELAY * 5}>
             <h1 className="text-4xl font-bold text-black dark:text-white">
-              Who am i?
+              Who am I?
             </h1>
           </BlurFade>
         </div>
@@ -171,7 +171,7 @@ export default function Home() {
             </h1>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 10} inView>
-            <Link href="/contact">
+            <Link href="/contact" className="pointer-events-none opacity-50">
               <InteractiveHoverButton className="w-40" text="Lets chat!" />
             </Link>
           </BlurFade>

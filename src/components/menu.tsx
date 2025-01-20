@@ -29,10 +29,10 @@ export function Menu() {
 
         {/* CV Button */}
         <DockIcon>
-          <Link href="/cv">
+          <Link href="/cv" className="pointer-events-none opacity-50">
             <div
               className={`p-2 ${
-                currentPath === "/cv" ? "bg-gray-100" : ""
+                currentPath === "/cv" ? "bg-gray-100" : "pointer-events-none opacity-50"
               } rounded-full`}
             >
               <Scroll />
@@ -45,10 +45,10 @@ export function Menu() {
 
         {/* Contact Button */}
         <DockIcon>
-          <Link href="/contact">
+          <Link href="/contact" className="pointer-events-none opacity-50">
             <div
               className={`p-2 ${
-                currentPath === "/contact" ? "bg-gray-100" : ""
+                currentPath === "/contact" ? "bg-gray-100" : "pointer-events-none opacity-50"
               } rounded-full`}
             >
               <Phone />
