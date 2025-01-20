@@ -48,7 +48,7 @@ export function PasswordPage({ children }: { children: React.ReactNode }) {
           Password
         </h1>
         <Input
-          type="text"
+          type="password"
           id="password"
           placeholder="Type here"
           value={formData.password}

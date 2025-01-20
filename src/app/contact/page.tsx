@@ -32,10 +32,10 @@ export default function Home() {
 
     emailjs
       .send(
-        "process.env.EMAILJS_SERVICE_ID", // Replace with your service ID
-        "process.env.EMAILJS_TEMPLATE_ID", // Replace with your template ID
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!, // Replace with your service ID
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!, // Replace with your template ID
         formData,
-        "process.env.EMAILJS_PUBLIC_KEY" // Replace with your user ID
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY! // Replace with your user ID
       )
       .then(
         () => {
