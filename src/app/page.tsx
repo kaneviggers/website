@@ -10,7 +10,6 @@ import FlickeringGrid from "@/components/ui/flickering-grid";
 import WordRotate from "@/components/ui/word-rotate";
 import InteractiveHoverButton from "@/components/ui/interactive-hover-button";
 import Marquee from "@/components/ui/marquee";
-import { Menu } from "@/components/menu";
 
 const reviews = [
   {
