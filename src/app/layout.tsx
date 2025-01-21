@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Toaster } from "@/components/ui/sonner"
+import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
-// import { Menu } from "@/components/menu";
+import { Menu } from "@/components/menu";
 import { PasswordPage } from "@/components/password_page";
+import "dotenv/config";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,14 +26,21 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  console.log("NEXT_PUBLIC_IS_PREVIEW:", process.env.NEXT_PUBLIC_IS_PREVIEW);
+
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <PasswordPage>{children}</PasswordPage>
-        {/* <Menu /> */}
-        {/* <main>{children}</main> */}
+        {process.env.NEXT_PUBLIC_IS_PREVIEW! == "true" ? (
+          <PasswordPage>{children}</PasswordPage>
+        ) : (
+          <>
+            <Menu />
+            <main>{children}</main>
+          </>
+        )}
         <Toaster />
       </body>
     </html>

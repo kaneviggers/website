@@ -38,8 +38,8 @@ const reviews = [
     img: "https://media.licdn.com/dms/image/v2/C5603AQEbjFu8C61A5g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1658391765827?e=2147483647&v=beta&t=hyYEmVwqAj0Wr6jS9zixtU9EiG_pdmLoq0PsaMv5Q1c",
   },
   {
-    name: "Jenny",
-    username: "@jenny",
+    name: "Kim",
+    username: "@kim",
     body: "I'm at a loss for words. This is amazing. I love it.",
     img: "https://avatar.vercel.sh/jenny",
   },
@@ -171,7 +171,7 @@ export default function Home() {
             </h1>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 10} inView>
-            <Link href="/contact" className="pointer-events-none opacity-50">
+            <Link href="/contact" className={`${process.env.NEXT_PUBLIC_IS_PREVIEW! == "true" ? "pointer-events-none opacity-50" : ""}`}>
               <InteractiveHoverButton className="w-40" text="Lets chat!" />
             </Link>
           </BlurFade>

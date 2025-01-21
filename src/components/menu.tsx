@@ -29,10 +29,10 @@ export function Menu() {
 
         {/* CV Button */}
         <DockIcon>
-          <Link href="/cv" className="pointer-events-none opacity-50">
+          <Link href="/cv" className={`${process.env.NEXT_PUBLIC_IS_PREVIEW! == "true" ? "pointer-events-none opacity-50" : ""}`}>
             <div
               className={`p-2 ${
-                currentPath === "/cv" ? "bg-gray-100" : "pointer-events-none opacity-50"
+                currentPath === "/cv" ? "bg-gray-100" : ""
               } rounded-full`}
             >
               <Scroll />
@@ -45,10 +45,10 @@ export function Menu() {
 
         {/* Contact Button */}
         <DockIcon>
-          <Link href="/contact" className="pointer-events-none opacity-50">
+          <Link href="/contact" className={`${process.env.NEXT_PUBLIC_IS_PREVIEW! == "true" ? "pointer-events-none opacity-50" : ""}`}>
             <div
               className={`p-2 ${
-                currentPath === "/contact" ? "bg-gray-100" : "pointer-events-none opacity-50"
+                currentPath === "/contact" ? "bg-gray-100" : ""
               } rounded-full`}
             >
               <Phone />
