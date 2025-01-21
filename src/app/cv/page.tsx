@@ -91,7 +91,7 @@ export default function Home() {
           <Separator />
         </BlurFade>
         <ResumeCard
-          key={1}
+          key={5}
           logoUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8GLKFaVEKpDb_cCs-QE9riht30PL4E1CEpw&s"
           altText="Wakatipu High School"
           title="Wakatipu High School"
@@ -102,7 +102,7 @@ export default function Home() {
           description="Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript."
         />
         <ResumeCard
-          key={2}
+          key={6}
           logoUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRahThNfuyGXldNPw-RO5mnRmSywK9hVmZ0vw&s"
           altText="Auckland University of Technology"
           title="Auckland University of Technology"
