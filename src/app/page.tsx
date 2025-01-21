@@ -11,6 +11,7 @@ import WordRotate from "@/components/ui/word-rotate";
 import InteractiveHoverButton from "@/components/ui/interactive-hover-button";
 import Marquee from "@/components/ui/marquee";
 import BlurFade from "@/components/ui/blur-fade";
+import { Separator } from "@/components/ui/separator"
 
 const reviews = [
   {
@@ -114,9 +115,10 @@ export default function Home() {
               "a website",
               "an API",
               "a mobile app",
-              "interactive art",
+              "interactive visual art",
               "cloud infrastructure",
               "AI image models",
+              "Neural Networks",
               "the future",
             ]}
             duration={3000}
@@ -133,17 +135,23 @@ export default function Home() {
 
       {/* About me Section */}
       <div className="relative flex justify-between items-start w-full pl-40 pr-40">
-        <div className="flex-1 flex flex-col">
+        {/* <div className="flex-1 flex flex-col">
           <BlurFade inView delay={BLUR_FADE_DELAY * 5}>
             <h1 className="text-4xl font-bold text-black dark:text-white">
               Who am I?
             </h1>
           </BlurFade>
-        </div>
+        </div> */}
         {/* 
           TODO: Rewrite this section
         */}
-        <div className="flex-1 space-y-4">
+        <div className="flex-1 space-y-4 max-w-[800px] mx-auto px-4 sm:px-6 lg:px-8">
+          <BlurFade inView delay={BLUR_FADE_DELAY * 5}>
+            <h1 className="text-4xl font-bold text-black dark:text-white">
+              Who am I?
+            </h1>
+          </BlurFade>
+          <Separator />
           <BlurFade delay={BLUR_FADE_DELAY * 6} inView>
             <h1 className="text-lg font-bold text-gray-500 dark:text-white">
               Hey, I&apos;m Kane! Orignally from Queenstown, New Zealand and
@@ -171,7 +179,14 @@ export default function Home() {
             </h1>
           </BlurFade>
           <BlurFade delay={BLUR_FADE_DELAY * 10} inView>
-            <Link href="/contact" className={`${process.env.NEXT_PUBLIC_IS_PREVIEW! == "true" ? "pointer-events-none opacity-50" : ""}`}>
+            <Link
+              href="/contact"
+              className={`${
+                process.env.NEXT_PUBLIC_IS_PREVIEW! == "true"
+                  ? "pointer-events-none opacity-50"
+                  : ""
+              }`}
+            >
               <InteractiveHoverButton className="w-40" text="Lets chat!" />
             </Link>
           </BlurFade>
