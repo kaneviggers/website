@@ -3,8 +3,8 @@
 import React, { useState } from "react";
 import "dotenv/config";
 import FlickeringGrid from "@/components/ui/flickering-grid";
-import { toast } from "sonner"
-import emailjs from "emailjs-com";
+// import { toast } from "sonner"
+// import emailjs from "emailjs-com";
 import BlurFade from "@/components/ui/blur-fade";
 import { Separator } from "@/components/ui/separator";
 
@@ -16,12 +16,12 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Home() {
 
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    content: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   phone: "",
+  //   content: "",
+  // });
 
   // const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
   //   setFormData({ ...formData, [e.target.id]: e.target.value });

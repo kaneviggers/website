@@ -1,6 +1,5 @@
 "use client";
 
-import { Clapperboard, Apple, Satellite, Calendar } from "lucide-react";
 import BlurFade from "@/components/ui/blur-fade";
 import { Separator } from "@/components/ui/separator";
 import { ResumeCard } from "@/components/jobCard";

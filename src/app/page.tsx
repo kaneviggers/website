@@ -10,6 +10,7 @@ import InteractiveHoverButton from "@/components/ui/interactive-hover-button";
 import Marquee from "@/components/ui/marquee";
 import BlurFade from "@/components/ui/blur-fade";
 import { Separator } from "@/components/ui/separator";
+import Image from "next/image";
 
 const reviews = [
   {
@@ -75,7 +76,7 @@ const ReviewCard = ({
       )}
     >
       <div className="flex flex-row items-center gap-2">
-        <img className="rounded-full" width="32" height="32" alt="" src={img} />
+        <Image className="rounded-full" width="32" height="32" alt="" src={img} />
         <div className="flex flex-col">
           <figcaption className="text-sm font-medium dark:text-white">
             {name}
