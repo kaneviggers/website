@@ -7,10 +7,14 @@ import InteractiveHoverButton from "@/components/ui/interactive-hover-button";
 import { toast } from "sonner"
 import { Input } from "@/components/ui/input"
 import emailjs from "emailjs-com";
+import BlurFade from "@/components/ui/blur-fade";
+import { Separator } from "@/components/ui/separator";
 
 /*
   TODO Add a form to contact me
 */
+
+const BLUR_FADE_DELAY = 0.04;
 
 export default function Home() {
 
@@ -51,7 +55,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="relative z-0 flex h-[500px] w-full">
+      <div className="relative z-0 flex h-[250px] w-full">
         <FlickeringGrid
           className="absolute inset-0 z-0"
           squareSize={4}
@@ -62,61 +66,39 @@ export default function Home() {
         />
         <div className="absolute bottom-0 w-full h-32 bg-gradient-to-t from-background to-transparent"></div>
       </div>
-      <div className="flex justify-center">
-        <div className="w-1/2">
+
+      <div className="flex-1 space-y-4 max-w-[800px] mx-auto px-8 sm:px-6 lg:px-8">
+        <BlurFade inView delay={BLUR_FADE_DELAY * 5}>
           <h1 className="text-4xl font-bold text-black dark:text-white">
-            Get in touch!
+            Get in touch
           </h1>
-          <hr className="border-t-2 border-black my-4" />
-          <form>
-            {/* Name */}
-            <div className="mb-4">
-              <label
-                htmlFor="name"
-                className="block text-sm font-medium text-gray-700"
-              >
-                Name
-              </label>
-              <Input type="text" id="name" placeholder="eg. John Smith" value={formData.name} onChange={handleChange} />
-            </div>
+        </BlurFade>
+        <BlurFade inView delay={BLUR_FADE_DELAY * 6}>
+          <Separator />
+        </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 7} inView>
+          <h1 className="text-lg font-bold text-gray-500 dark:text-white">
+            Hey, I&apos;m Kane! Orignally from Queenstown, New Zealand and
+            currently in Univserity in Auckland.
 
-            {/* Email */}
-            <div className="mb-4">
-              <label
-                htmlFor="email"
-                className="block text-sm font-medium text-gray-700"
-              >
-                Email
-              </label>
-              <Input type="email" id="email" placeholder="eg. johnsmith@example.com" value={formData.email} onChange={handleChange} />
-            </div>
-
-            {/* Phone */}
-            <div className="mb-4">
-              <label
-                htmlFor="phone"
-                className="block text-sm font-medium text-gray-700"
-              >
-                Phone
-              </label>
-              <Input type="phone" id="phone" placeholder="eg. 123 456 7890" value={formData.phone} onChange={handleChange} />
-            </div>
-
-            {/* Content */}
-            <div className="mb-4">
-              <label
-                htmlFor="text"
-                className="block text-sm font-medium text-gray-700"
-              >
-                Enquiry
-              </label>
-              <Input type="text" id="content" value={formData.content} onChange={handleChange} />
-            </div>
-
-            {/* Submit Button */}
-            <InteractiveHoverButton className="w-40" text="Send" onClick={handleSubmit} />
-          </form>
-        </div>
+            I&apos;m Kane, a passionate software developer from Queenstown, New Zealand, currently studying Mechatronics Engineering in Auckland.
+          </h1>
+        </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 8} inView>
+          <h1 className="text-lg font-bold text-gray-500 dark:text-white">
+          I&apos;ve been programming since I was 13, and I&apos;ve worked on diverse projects: using AI and satellite imagery to detect invasive vegetation for an agtech company, building websites for a wedding planning agency, and creating APIs to automate internal processes—including integration with Apple&apos;s internal platforms. I&apos;ve also contributed to telecommunication projects with major industry players like Spark and Vodafone, honing my problem-solving skills and adaptability along the way.
+          </h1>
+        </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 9} inView>
+          <h1 className="text-lg font-bold text-gray-500 dark:text-white">
+          My hands-on experience, combined with my knack for quick learning and problem-solving, allows me to adapt and deliver results in any environment.
+          </h1>
+        </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 10} inView>
+          <h1 className="text-lg font-bold text-gray-500 dark:text-white">
+          If you’re looking for a driven developer who&apos;s ready to tackle new challenges, let&apos;s connect!
+          </h1>
+        </BlurFade>
       </div>
     </div>
   );

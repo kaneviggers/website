@@ -2,8 +2,6 @@
 
 import Link from "next/link";
 
-import { Footer } from "@/components/footer";
-
 import { cn } from "@/lib/utils";
 
 import FlickeringGrid from "@/components/ui/flickering-grid";
@@ -197,9 +195,6 @@ export default function Home() {
           </Marquee>
         </BlurFade>
       </div>
-
-      {/* Footer */}
-      <Footer />
     </div>
   );
 }
