@@ -150,21 +150,23 @@ export default function Home() {
             <h1 className="text-4xl font-bold text-black dark:text-white">
               Who am I?
             </h1>
-          </BlurFade>
+          </BlurFade >
+          <BlurFade inView delay={BLUR_FADE_DELAY * 6}>
           <Separator />
-          <BlurFade delay={BLUR_FADE_DELAY * 6} inView>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 7} inView>
             <h1 className="text-lg font-bold text-gray-500 dark:text-white">
               Hey, I&apos;m Kane! Orignally from Queenstown, New Zealand and
               currently in Univserity in Auckland.
             </h1>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 7} inView>
+          <BlurFade delay={BLUR_FADE_DELAY * 8} inView>
             <h1 className="text-lg font-bold text-gray-500 dark:text-white">
               Since I was 13 I&apos;ve been beyond interested in computer
               programming and have been learning ever since.
             </h1>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 8} inView>
+          <BlurFade delay={BLUR_FADE_DELAY * 9} inView>
             <h1 className="text-lg font-bold text-gray-500 dark:text-white">
               I started working as a private contracter soon after and have
               worked in all sorts of different fields, with the added beneift of
@@ -172,13 +174,13 @@ export default function Home() {
               confident in picking something new up and running with it.
             </h1>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 9} inView>
+          <BlurFade delay={BLUR_FADE_DELAY * 10} inView>
             <h1 className="text-lg font-bold text-gray-500 dark:text-white">
               I&apos;m always looking for new opportunities and challenges, so
               if you have something in mind, feel free to reach out!
             </h1>
           </BlurFade>
-          <BlurFade delay={BLUR_FADE_DELAY * 10} inView>
+          <BlurFade delay={BLUR_FADE_DELAY * 11} inView>
             <Link
               href="/contact"
               className={`${
@@ -195,16 +197,20 @@ export default function Home() {
 
       {/* Reviews Section */}
       <div className="pt-10 pb-10">
+      <BlurFade delay={BLUR_FADE_DELAY * 12} inView>
         <Marquee pauseOnHover className="[--duration:50s]">
           {firstRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}
         </Marquee>
+        </BlurFade>
+        <BlurFade delay={BLUR_FADE_DELAY * 13} inView>
         <Marquee reverse pauseOnHover className="[--duration:50s]">
           {secondRow.map((review) => (
             <ReviewCard key={review.username} {...review} />
           ))}
         </Marquee>
+        </BlurFade>
       </div>
 
       {/* Footer */}
