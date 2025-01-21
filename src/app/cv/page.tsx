@@ -9,38 +9,6 @@ import React from "react";
 
 import FlickeringGrid from "@/components/ui/flickering-grid";
 
-const jobs = [
-  {
-    Icon: Clapperboard,
-    name: "CreaturePost",
-    description: "Creating interactive visuals for events and festivals",
-    href: "/",
-    cta: "Learn more",
-  },
-  {
-    Icon: Satellite,
-    name: "Skyris",
-    description:
-      "Identifying invasive vegetation using satellite imagery and AI image models",
-    href: "/",
-    cta: "Learn more",
-  },
-  {
-    Icon: Apple,
-    name: "DeepFocus",
-    description: "Automating internal processes utilising APIs",
-    href: "/",
-    cta: "Learn more",
-  },
-  {
-    Icon: Calendar,
-    name: "Romeo Software",
-    description: "Reinventing the event management industry",
-    href: "/",
-    cta: "Learn more",
-  },
-];
-
 /*
  TODO Make bento grid overlay the flickering grid
 */
