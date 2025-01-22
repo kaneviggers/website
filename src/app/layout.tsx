@@ -40,10 +40,10 @@ export default function RootLayout({
           <>
             <Menu />
             <main className="flex-1">{children}</main>
+            <Footer />
           </>
         )}
         <Toaster />
-        <Footer />
       </body>
     </html>
   );

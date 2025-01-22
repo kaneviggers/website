@@ -7,6 +7,7 @@ import FlickeringGrid from "./ui/flickering-grid";
 import { toast } from "sonner"
 import "dotenv/config";
 import { Menu } from "./menu";
+import { Footer } from "@/components/footer";
 
 export function PasswordPage({ children }: { children: React.ReactNode }) {
   const [formData, setFormData] = useState({
@@ -33,6 +34,7 @@ export function PasswordPage({ children }: { children: React.ReactNode }) {
     <div>
       <Menu />
       {children}
+      <Footer />
     </div>
   ) : (
     <div className="flex flex-col justify-center min-h-screen gap-2 bg-gray-900">
