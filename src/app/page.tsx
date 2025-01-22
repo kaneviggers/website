@@ -22,7 +22,7 @@ const reviews = [
   {
     name: "Eden",
     username: "@deepfocus",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
+    body: "Adaptable, brilliant, conscious, and sincere. Kane is the distillation of everything our industry represents. He's humble, yet direct. Always learning, yet mature. He will be of aid to any enterprise… and a friend to those who do it right. I'd hire him, so I did.",
     img: "https://static1.squarespace.com/static/5f0a3f92afd11c2196107cf7/t/622a8fa77ad6a91f9ac202b7/1622070244599/deep+logo.png?format=1500w",
   },
   {
@@ -95,7 +95,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden z-[-1]">
+      <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden">
         <FlickeringGrid
           className="absolute inset-0"
           squareSize={4}
