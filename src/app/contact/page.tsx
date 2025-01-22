@@ -18,40 +18,40 @@ import InteractiveHoverButton from "@/components/ui/interactive-hover-button";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Home() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    content: "",
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   phone: "",
+  //   content: "",
+  // });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setFormData({ ...formData, [e.target.id]: e.target.value });
-  };
+  // const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  //   setFormData({ ...formData, [e.target.id]: e.target.value });
+  // };
 
-  const handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
-    e.preventDefault();
+  // const handleSubmit = (e: React.MouseEvent<HTMLButtonElement>) => {
+  //   e.preventDefault();
 
-    // emailjs.init(process.env.EMAILJS_PUBLIC_KEY!)
+  //   emailjs.init(process.env.EMAILJS_PUBLIC_KEY!)
 
-    // emailjs
-    //   .send(
-    //     process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!, // Replace with your service ID
-    //     process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!, // Replace with your template ID
-    //     formData,
-    //     process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY! // Replace with your user ID
-    //   )
-    //   .then(
-    //     () => {
-    //       toast("Email has been sent!")
-    //       setFormData({ name: "", email: "", phone: "", content: "" });
-    //     },
-    //     (error) => {
-    //       toast("Something went wrong, try again later.")
-    //       console.error(error);
-    //     }
-    //   );
-  };
+  //   emailjs
+  //     .send(
+  //       process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!, // Replace with your service ID
+  //       process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!, // Replace with your template ID
+  //       formData,
+  //       process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY! // Replace with your user ID
+  //     )
+  //     .then(
+  //       () => {
+  //         toast("Email has been sent!")
+  //         setFormData({ name: "", email: "", phone: "", content: "" });
+  //       },
+  //       (error) => {
+  //         toast("Something went wrong, try again later.")
+  //         console.error(error);
+  //       }
+  //     );
+  // };
 
   return (
     <div>
