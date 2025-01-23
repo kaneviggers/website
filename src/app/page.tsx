@@ -27,9 +27,9 @@ const reviews = [
   },
   {
     name: "Kath",
-    username: "@onefinedayinternational",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://media.licdn.com/dms/image/v2/C560BAQF5r7plSmxRoA/company-logo_200_200/company-logo_200_200/0/1630633456869?e=2147483647&v=beta&t=z8O5mwd_JrNu7YUuzmaMLD0pV5366eqX32uWSaQfiLI",
+    username: "@kmevents",
+    body: "Kane is the epitome of dedication and expertise. His exceptional work ethic and unparalleled skill in his field consistently set him apart, making him an invaluable asset to any team or project.",
+    img: "/images/km_events.png",
   },
   {
     name: "Jason",
@@ -145,7 +145,7 @@ export default function Home() {
         <BlurFade delay={BLUR_FADE_DELAY * 7} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
             Hey, I&apos;m Kane! Orignally from Queenstown, New Zealand and
-            currently in Univserity in Auckland.
+            currently in University in Auckland.
 
             I&apos;m Kane, a passionate software developer from Queenstown, New Zealand, currently studying Mechatronics Engineering in Auckland.
           </h1>
