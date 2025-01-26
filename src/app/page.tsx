@@ -144,10 +144,7 @@ export default function Home() {
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 7} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
-            Hey, I&apos;m Kane! Orignally from Queenstown, New Zealand and
-            currently in University in Auckland.
-
-            I&apos;m Kane, a passionate software developer from Queenstown, New Zealand, currently studying Mechatronics Engineering in Auckland.
+            I'm Kane, a passionate software developer from Queenstown, New Zealand.
           </h1>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 8} inView>

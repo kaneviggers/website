@@ -36,13 +36,13 @@ const jobs = [
     herf: "www.deepfocus.co.nz",
   },
   {
-    title: "OneFineDay International",
+    title: "KM Events",
     altText: "OneFineDay International",
     subtitle: "Web developer",
     period: "June 2022 - December 2024",
     description: "Description",
     logoUrl:
-      "https://media.licdn.com/dms/image/v2/C560BAQF5r7plSmxRoA/company-logo_200_200/company-logo_200_200/0/1630633456869?e=2147483647&v=beta&t=z8O5mwd_JrNu7YUuzmaMLD0pV5366eqX32uWSaQfiLI",
+      "/images/km_events.png",
     herf: "www.onefineday.co.nz",
   },
   {
