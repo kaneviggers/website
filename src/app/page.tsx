@@ -149,7 +149,7 @@ export default function Home() {
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 8} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
-          I&apos;ve been programming since I was 13, and I&apos;ve worked on diverse projects: using AI and satellite imagery to detect invasive vegetation for an agtech company, building websites for a wedding planning agency, and creating APIs to automate internal processes—including integration with Apple&apos;s internal platforms. I&apos;ve also contributed to telecommunication projects with major industry players like Spark and Vodafone, honing my problem-solving skills and adaptability along the way.
+          I've been programming since I was 13, and I've worked on diverse projects: using AI and satellite imagery to detect invasive vegetation for an agtech company, building websites for a wedding planning agency, and creating APIs to automate internal processes—including integration with Apple's internal platforms. I've also contributed to telecommunication projects with major industry players like Spark and Vodafone, honing my problem-solving skills and adaptability along the way.
           </h1>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 9} inView>
@@ -159,7 +159,7 @@ export default function Home() {
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 10} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
-          If you’re looking for a driven developer who&apos;s ready to tackle new challenges, let&apos;s connect!
+          If you’re looking for a driven developer who's ready to tackle new challenges, let's connect!
           </h1>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 11} inView>

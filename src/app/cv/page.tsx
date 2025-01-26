@@ -77,6 +77,16 @@ const education = [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRahThNfuyGXldNPw-RO5mnRmSywK9hVmZ0vw&s",
     herf: "www.aut.ac.nz",
   },
+  {
+    title: "Yoobee Colleges",
+    altText: "Yoobee Colleges",
+    subtitle: "Certificate of information technology",
+    period: "Jan 2025 - Present",
+    description: "Description",
+    logoUrl:
+      "https://pbs.twimg.com/profile_images/1131686292322967553/qM32aWoR_400x400.png",
+    herf: "www.yoobee.ac.nz",
+  }
 ];
 
 export default function Home() {
