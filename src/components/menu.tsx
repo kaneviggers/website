@@ -1,7 +1,7 @@
 "use client";
 
 import { Dock, DockIcon } from "@/components/ui/dock";
-import { HomeIcon, Phone, BriefcaseBusiness, Github, Linkedin } from "lucide-react";
+import { HomeIcon, BriefcaseBusiness, FolderOpen, Phone, Github, Linkedin } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 
@@ -41,6 +41,26 @@ export function Menu() {
               } rounded-full`}
             >
               <BriefcaseBusiness />
+            </div>
+          </Link>
+        </DockIcon>
+
+        {/* Projects Button */}
+        <DockIcon>
+          <Link
+            href="/projects"
+            className={`${
+              process.env.NEXT_PUBLIC_IS_PREVIEW! == "true"
+                ? "pointer-events-none opacity-50"
+                : ""
+            }`}
+          >
+            <div
+              className={`p-2 ${
+                currentPath === "/projects" ? "bg-gray-100" : ""
+              } rounded-full`}
+            >
+              <FolderOpen />
             </div>
           </Link>
         </DockIcon>
