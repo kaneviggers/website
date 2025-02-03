@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Preview",
+  title: "Kane Viggers",
   description: "Kane Viggers",
 };
 
