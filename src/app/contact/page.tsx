@@ -133,7 +133,7 @@ export default function Home() {
               <Separator />
             </BlurFade>
             <h1 className="text-md text-black dark:text-white pt-5">
-              Thanks for getting in touch, I'll get back to you soon!
+              Thanks for getting in touch, I&apos;ll get back to you soon!
             </h1>
           </div>
         ) : (
