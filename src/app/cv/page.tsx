@@ -30,7 +30,7 @@ const jobs = [
     altText: "DeepFocus",
     subtitle: "Apple Certified Technician | Software developer",
     period: "Janurary 2022 - Present",
-    description: "Description",
+    description: "Working at DeepFocus provided me with valuable opportunities and played a key role in launching my software development career. Initially training as an Apple Certified Technician, I soon shifted my focus to automating internal processes, streamlining everything from repair bookings to lead management. This ultimately led to integrating an official Apple API, optimizing workflows to reduce administrative overhead and enhance both operational efficiency and the customer experience.",
     logoUrl:
       "https://static1.squarespace.com/static/5f0a3f92afd11c2196107cf7/t/622a8fa77ad6a91f9ac202b7/1622070244599/deep+logo.png?format=1500w",
     herf: "www.deepfocus.co.nz",
@@ -40,7 +40,7 @@ const jobs = [
     altText: "OneFineDay International",
     subtitle: "Web developer",
     period: "June 2022 - December 2024",
-    description: "Description",
+    description: "At KM Events, a full-service wedding planning company, I was responsible for designing and developing custom websites tailored to individual weddings. These websites served as a central hub for guests, providing event details, RSVPs, and personalized content. By creating seamless, user-friendly experiences, I helped enhance the digital presence of each event while ensuring a smooth and engaging experience for both clients and their guests.",
     logoUrl:
       "/images/km_events.png",
     herf: "www.onefineday.co.nz",
@@ -50,7 +50,7 @@ const jobs = [
     altText: "Agtech Software Company",
     subtitle: "Full stack Software Engineer",
     period: "June 2023 - Feburary 2024",
-    description: "Description",
+    description: "As the Head Developer in R&D, I led the development of AI-driven image analysis models to detect invasive vegetation in satellite imagery. In addition to my work in machine learning, I played a key role in UI/UX design and website development, ensuring intuitive and effective user experiences. I also managed administrative tasks, collaborating with external partners to support project goals and streamline operations.",
     logoUrl: "",
     herf: "",
   },
@@ -62,7 +62,7 @@ const education = [
     altText: "Wakatipu High School",
     subtitle: "NCEA L3 | UE",
     period: "Janurary 2019 - December 2024",
-    description: "Description",
+    description: "I attended Wakatipu High School, where I successfully completed all three levels of NCEA without failing a class. My strengths were in computer programming, mathematics, and physics, where I consistently excelled and deepened my technical and problem-solving skills.",
     logoUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8GLKFaVEKpDb_cCs-QE9riht30PL4E1CEpw&s",
     herf: "www.wakatipu.school.nz",
@@ -72,20 +72,10 @@ const education = [
     altText: "Auckland University of Technology",
     subtitle: "Bachelor of Engineering | Mechatronics",
     period: "July 2024 - Present",
-    description: "Description",
+    description: "I am currently pursuing a Bachelor of Engineering (Honours) in Mechatronics at Auckland University of Technology. This program has allowed me to develop a strong foundation in mechanical, electrical, and software engineering, with a focus on automation, robotics, and embedded systems.",
     logoUrl:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRahThNfuyGXldNPw-RO5mnRmSywK9hVmZ0vw&s",
     herf: "www.aut.ac.nz",
-  },
-  {
-    title: "Yoobee Colleges",
-    altText: "Yoobee Colleges",
-    subtitle: "Certificate of information technology",
-    period: "Jan 2025 - Present",
-    description: "Description",
-    logoUrl:
-      "https://pbs.twimg.com/profile_images/1131686292322967553/qM32aWoR_400x400.png",
-    herf: "www.yoobee.ac.nz",
   }
 ];
 

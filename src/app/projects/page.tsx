@@ -20,7 +20,7 @@ const projects = [
     altText: "Airman",
     subtitle: "Flight planning IOS app",
     period: "Developing",
-    description: "I've had the privilege of working with CreaturePost, starting with the LUMA Light Show in 2023 and 2024. During that time, we launched Imaginaium—an innovative video feed that uses AI-generated imagery, dynamically evolving based on live microphone input. Initially a prototype with limited performance, we leveraged advancing technology to transform it into the captivating visual installation we envisioned. In July 2024, we embarked on an exciting project for a prominent New Zealand telco company. While details are still under wraps, the progress we've made is incredibly promising.Working with CreaturePost has been a rewarding experience, full of creativity, collaboration, and meaningful strides in visual and AI-driven innovation.",
+    description: "Airman is a free iOS app designed to simplify flight tracking with a seamless and intuitive experience. By entering just a flight number and departure date, users can monitor upcoming flights and receive real-time updates, including delays, cancellations, and gate changes. The app also features a world map view, allowing users to explore live air traffic and access detailed flight information with a simple tap. Built to integrate seamlessly with iOS Live Activities, Airman ensures you stay informed at every stage of your journey.",
     logoUrl:
       "",
     herf: "www.creaturepost.co.nz",
