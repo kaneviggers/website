@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
 import "./globals.css";
 import { Menu } from "@/components/menu";
-import { PasswordPage } from "@/components/password_page";
 import "dotenv/config";
 import { Footer } from "@/components/footer";
 
@@ -34,15 +33,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} h-full flex flex-col antialiased`}
       >
-        {process.env.NEXT_PUBLIC_IS_PREVIEW! == "true" ? (
-          <PasswordPage>{children}</PasswordPage>
-        ) : (
-          <>
-            <Menu />
-            <main className="flex-1">{children}</main>
-            <Footer />
-          </>
-        )}
+        <Menu />
+        <main className="flex-1">{children}</main>
+        <Footer />
         <Toaster />
       </body>
     </html>
