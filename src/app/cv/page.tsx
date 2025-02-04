@@ -16,6 +16,16 @@ const BLUR_FADE_DELAY = 0.04;
 
 const jobs = [
   {
+    title: "Outlier",
+    altText: "Outlier",
+    subtitle: "AI Training",
+    period: "Feburary 2025 - Present",
+    description: "Working as an AI Code Evaluator & Developer, reviewing and optimizing AI-generated code across multiple languages, including Swift, Python, Java, Go, Verilog, JavaScript, C++, and C#. Evaluated code quality, provided human-readable explanations, wrote test cases, and optimised solutions for efficiency and functionality. Contributed to training large language models by assessing AI-generated code and offering structured feedback to improve accuracy and readability.",
+    logoUrl:
+      "https://cdn-images.himalayas.app/ok0sxezitxy4grjzzz99evpwesaf",
+    herf: "www.outlier.ai",
+  },
+  {
     title: "CreaturePost",
     altText: "CreaturePost",
     subtitle: "Full stack Software Engineer",
@@ -36,16 +46,6 @@ const jobs = [
     herf: "www.deepfocus.co.nz",
   },
   {
-    title: "KM Events",
-    altText: "OneFineDay International",
-    subtitle: "Web developer",
-    period: "June 2022 - December 2024",
-    description: "At KM Events, a full-service wedding planning company, I was responsible for designing and developing custom websites tailored to individual weddings. These websites served as a central hub for guests, providing event details, RSVPs, and personalized content. By creating seamless, user-friendly experiences, I helped enhance the digital presence of each event while ensuring a smooth and engaging experience for both clients and their guests.",
-    logoUrl:
-      "/images/km_events.png",
-    herf: "www.onefineday.co.nz",
-  },
-  {
     title: "AI Startup",
     altText: "AI Startup",
     subtitle: "Full stack Software Engineer",
@@ -54,6 +54,16 @@ const jobs = [
     logoUrl: "",
     herf: "",
   },
+  {
+    title: "KM Events",
+    altText: "OneFineDay International",
+    subtitle: "Web developer",
+    period: "June 2022 - December 2024",
+    description: "At KM Events, a full-service wedding planning company, I was responsible for designing and developing custom websites tailored to individual weddings. These websites served as a central hub for guests, providing event details, RSVPs, and personalized content. By creating seamless, user-friendly experiences, I helped enhance the digital presence of each event while ensuring a smooth and engaging experience for both clients and their guests.",
+    logoUrl:
+      "/images/km_events.png",
+    herf: "www.onefineday.co.nz",
+  }
 ];
 
 const education = [
