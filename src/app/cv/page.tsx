@@ -15,16 +15,16 @@ import FlickeringGrid from "@/components/ui/flickering-grid";
 const BLUR_FADE_DELAY = 0.04;
 
 const jobs = [
-  {
-    title: "Outlier",
-    altText: "Outlier",
-    subtitle: "AI Training",
-    period: "Feburary 2025 - Present",
-    description: "Working as an AI Code Evaluator & Developer, reviewing and optimizing AI-generated code across multiple languages, including Swift, Python, Java, Go, Verilog, JavaScript, C++, and C#. Evaluated code quality, provided human-readable explanations, wrote test cases, and optimised solutions for efficiency and functionality. Contributed to training large language models by assessing AI-generated code and offering structured feedback to improve accuracy and readability.",
-    logoUrl:
-      "https://cdn-images.himalayas.app/ok0sxezitxy4grjzzz99evpwesaf",
-    herf: "www.outlier.ai",
-  },
+  // {
+  //   title: "Outlier",
+  //   altText: "Outlier",
+  //   subtitle: "AI Training",
+  //   period: "Feburary 2025 - Present",
+  //   description: "Working as an AI Code Evaluator & Developer, reviewing and optimizing AI-generated code across multiple languages, including Swift, Python, Java, Go, Verilog, JavaScript, C++, and C#. Evaluated code quality, provided human-readable explanations, wrote test cases, and optimised solutions for efficiency and functionality. Contributed to training large language models by assessing AI-generated code and offering structured feedback to improve accuracy and readability.",
+  //   logoUrl:
+  //     "https://cdn-images.himalayas.app/ok0sxezitxy4grjzzz99evpwesaf",
+  //   herf: "www.outlier.ai",
+  // },
   {
     title: "CreaturePost",
     altText: "CreaturePost",
