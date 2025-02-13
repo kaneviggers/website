@@ -29,11 +29,6 @@ export function Menu() {
         <DockIcon>
           <Link
             href="/cv"
-            className={`${
-              process.env.NEXT_PUBLIC_IS_PREVIEW! == "true"
-                ? "pointer-events-none opacity-50"
-                : ""
-            }`}
           >
             <div
               className={`p-2 ${
@@ -49,11 +44,6 @@ export function Menu() {
         <DockIcon>
           <Link
             href="/projects"
-            className={`${
-              process.env.NEXT_PUBLIC_IS_PREVIEW! == "true"
-                ? "pointer-events-none opacity-50"
-                : ""
-            }`}
           >
             <div
               className={`p-2 ${
@@ -67,7 +57,7 @@ export function Menu() {
 
         {/* Contact Button */}
         <DockIcon>
-          <Link
+          {/* <Link
             href="/contact"
             className={`${
               process.env.NEXT_PUBLIC_IS_PREVIEW! == "true"
@@ -82,6 +72,9 @@ export function Menu() {
             >
               <Phone />
             </div>
+          </Link> */}
+          <Link href="https://app.usemotion.com/meet/kaneviggers/meeting">
+            <Phone />
           </Link>
         </DockIcon>
 
@@ -89,13 +82,13 @@ export function Menu() {
         <div className="w-px h-10 bg-gray-300 mx-2" />
 
         <DockIcon>
-          <Link href="https://github.com/kaneviggers" className={process.env.NEXT_PUBLIC_IS_PREVIEW == "true" ? "pointer-events-none opacity-50" : ""}>
+          <Link href="https://github.com/kaneviggers">
             <Github />
           </Link>
         </DockIcon>
 
         <DockIcon>
-          <Link href="https://github.com/kaneviggers" className={process.env.NEXT_PUBLIC_IS_PREVIEW == "true" ? "pointer-events-none opacity-50" : ""}>
+          <Link href="https://github.com/kaneviggers">
             <Linkedin />
           </Link>
         </DockIcon>
