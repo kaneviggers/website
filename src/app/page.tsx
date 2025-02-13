@@ -171,21 +171,25 @@ export default function Home() {
       </div>
 
       {/* Reviews Section */}
-      <div className="pt-10 pb-10">
-        <BlurFade delay={BLUR_FADE_DELAY * 12} inView>
-          <Marquee pauseOnHover className="[--duration:50s]">
-            {firstRow.map((review) => (
-              <ReviewCard key={review.username} {...review} />
-            ))}
-          </Marquee>
-        </BlurFade>
-        <BlurFade delay={BLUR_FADE_DELAY * 13} inView>
-          <Marquee reverse pauseOnHover className="[--duration:50s]">
-            {secondRow.map((review) => (
-              <ReviewCard key={review.username} {...review} />
-            ))}
-          </Marquee>
-        </BlurFade>
+      <div className="relative overflow-hidden max-w-[1000px] mx-auto pt-10 pb-10">
+        <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-24 bg-gradient-to-r from-white/100 to-transparent" />
+
+          <BlurFade delay={BLUR_FADE_DELAY * 12} inView>
+            <Marquee pauseOnHover className="[--duration:50s]">
+              {firstRow.map((review) => (
+                <ReviewCard key={review.username} {...review} />
+              ))}
+            </Marquee>
+          </BlurFade>
+          <BlurFade delay={BLUR_FADE_DELAY * 13} inView>
+            <Marquee reverse pauseOnHover className="[--duration:50s]">
+              {secondRow.map((review) => (
+                <ReviewCard key={review.username} {...review} />
+              ))}
+            </Marquee>
+          </BlurFade>
+
+          <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-24 bg-gradient-to-l from-white/100 to-transparent" />
       </div>
     </div>
   );
