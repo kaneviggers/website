@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { useState } from "react";
+// import { useState } from "react";
 
 export function Menu() {
   const currentPath = usePathname();
