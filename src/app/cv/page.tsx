@@ -15,16 +15,18 @@ import FlickeringGrid from "@/components/ui/flickering-grid";
 const BLUR_FADE_DELAY = 0.04;
 
 const jobs = [
-  // {
-  //   title: "Outlier",
-  //   altText: "Outlier",
-  //   subtitle: "AI Training",
-  //   period: "Feburary 2025 - Present",
-  //   description: "Working as an AI Code Evaluator & Developer, reviewing and optimizing AI-generated code across multiple languages, including Swift, Python, Java, Go, Verilog, JavaScript, C++, and C#. Evaluated code quality, provided human-readable explanations, wrote test cases, and optimised solutions for efficiency and functionality. Contributed to training large language models by assessing AI-generated code and offering structured feedback to improve accuracy and readability.",
-  //   logoUrl:
-  //     "https://cdn-images.himalayas.app/ok0sxezitxy4grjzzz99evpwesaf",
-  //   herf: "www.outlier.ai",
-  // },
+  {
+    title: "Ghost Street",
+    altText: "Ghost Street",
+    subtitle: "Junior Developer",
+    period: "April 2025 - Present",
+    description: "As a junior developer, my role involves maintaining and updating existing websites and digital products, as well as assisting with bug fixes and minor feature updates. I collaborate with the development team on ongoing projects, document any changes I make, and manage code using version control systems like Git. I actively participate in team meetings, contribute to problem-solving discussions, and enjoy working both independently and as part of a collaborative team environment.",
+    logoUrl:
+      "/images/ghost.png",
+    herf: "www.ghost.st",
+    logo_size_x: 30,
+    logo_size_y: 30
+  },
   {
     title: "CreaturePost",
     altText: "CreaturePost",
@@ -126,6 +128,8 @@ export default function Home() {
                 badges={[]}
                 period={job.period}
                 description={job.description}
+                logo_size_x={job.logo_size_x ?? 0}
+                logo_size_y={job.logo_size_y ?? 0}
               />
             </BlurFade>
           ))}

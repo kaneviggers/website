@@ -18,6 +18,8 @@ interface ResumeCardProps {
   badges?: readonly string[];
   period: string;
   description?: string;
+  logo_size_x?: number;
+  logo_size_y?: number;
 }
 export const ResumeCard = ({
   logoUrl,
@@ -28,6 +30,8 @@ export const ResumeCard = ({
   badges,
   period,
   description,
+  logo_size_x,
+  logo_size_y,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
@@ -46,11 +50,15 @@ export const ResumeCard = ({
     >
       <Card className="flex">
         <div className="flex-none">
-          <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground">
+          <Avatar className="border size-12 m-auto bg-muted-background dark:bg-foreground flex items-center justify-center">
             <AvatarImage
               src={logoUrl}
               alt={altText}
               className="object-contain"
+              style={{
+                width: logo_size_x ? `${logo_size_x}px` : undefined,
+                height: logo_size_y ? `${logo_size_y}px` : undefined,
+              }}
             />
             <AvatarFallback>{altText[0]}</AvatarFallback>
           </Avatar>
