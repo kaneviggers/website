@@ -3,9 +3,9 @@
 import { Dock, DockIcon } from "@/components/ui/dock";
 import {
   HomeIcon,
-  BadgeCheck,
+  // BadgeCheck,
   BriefcaseBusiness,
-  FolderOpen,
+  // FolderOpen,
   Phone,
   Github,
   Linkedin,
@@ -17,13 +17,15 @@ import { useState } from "react";
 export function Menu() {
   const currentPath = usePathname();
 
-  const [home, setHome] = useState(true);
-  const [skills, setSkills] = useState(true);
-  const [cv, setCv] = useState(true);
-  const [projects, setProjects] = useState(true);
-  const [contact, setContact] = useState(true);
-  const [github, setGithub] = useState(true);
-  const [linkedin, setLinkedin] = useState(true);
+  // Was being used for the text idea below the menubar, but we don't need this anymore
+  // Leaving it here incase I want to come back to it
+  // const [home, setHome] = useState(true);
+  // const [skills, setSkills] = useState(true);
+  // const [cv, setCv] = useState(true);
+  // const [projects, setProjects] = useState(true);
+  // const [contact, setContact] = useState(true);
+  // const [github, setGithub] = useState(true);
+  // const [linkedin, setLinkedin] = useState(true);
 
   return (
     <div className="fixed top-0 left-0 w-full z-[50] z-50">
