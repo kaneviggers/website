@@ -1,6 +1,7 @@
 "use client";
 
 import { Dock, DockIcon } from "@/components/ui/dock";
+import { Moon, Sun } from "lucide-react"
 import {
   HomeIcon,
   // BadgeCheck,
@@ -12,20 +13,23 @@ import {
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-// import { useState } from "react";
+import { Button } from "./ui/button";
+import { useState, useEffect } from "react";
 
 export function Menu() {
   const currentPath = usePathname();
 
-  // Was being used for the text idea below the menubar, but we don't need this anymore
-  // Leaving it here incase I want to come back to it
-  // const [home, setHome] = useState(true);
-  // const [skills, setSkills] = useState(true);
-  // const [cv, setCv] = useState(true);
-  // const [projects, setProjects] = useState(true);
-  // const [contact, setContact] = useState(true);
-  // const [github, setGithub] = useState(true);
-  // const [linkedin, setLinkedin] = useState(true);
+  // const { setTheme } = useTheme()
+
+  // const [darkMode, setDarkMode] = useState(true);
+
+  // useEffect(() => {
+  //   setTheme(darkMode ? "dark" : "light");
+  // }, [darkMode, setTheme])
+
+  // const changeMode = () => {
+  //   setDarkMode(!darkMode);
+  // }
 
   return (
     <div className="fixed top-0 left-0 w-full z-[50] z-50">
@@ -58,7 +62,7 @@ export function Menu() {
         </DockIcon> */}
 
         {/* CV Button */}
-        <DockIcon>
+        {/* <DockIcon>
           <Link href="/cv">
             <div
               className={`p-2 ${
@@ -68,7 +72,7 @@ export function Menu() {
               <BriefcaseBusiness />
             </div>
           </Link>
-        </DockIcon>
+        </DockIcon> */}
 
         {/* Projects Button */}
         {/* <DockIcon>
@@ -106,20 +110,30 @@ export function Menu() {
           </Link>
         </DockIcon>
 
+        {/* <DockIcon>
+          <Link href="https://github.com/kaneviggers">
+            <Github />
+          </Link>
+        </DockIcon> */}
+
         {/* Divider */}
         <div className="w-px h-10 bg-gray-300 mx-2" />
 
         <DockIcon>
-          <Link href="https://github.com/kaneviggers">
-            <Github />
-          </Link>
-        </DockIcon>
-
-        <DockIcon>
-          <Link href="https://github.com/kaneviggers">
+          <Link href="https://nz.linkedin.com/in/kane-viggers-20517524b">
             <Linkedin />
           </Link>
         </DockIcon>
+
+        {/* Divider */}
+        {/* <div className="w-px h-10 bg-gray-300 mx-2" /> */}
+
+        {/* <DockIcon>
+          <Button variant="ghost" onClick={changeMode}>
+            <Sun className="h-[1.2rem] w-[1.2rem] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
+          </Button>
+        </DockIcon> */}
+
       </Dock>
       {/* <div className="fixed top-0 left-0 w-full z-[50] z-0 flex justify-around py-4 rounded-full">
         <span

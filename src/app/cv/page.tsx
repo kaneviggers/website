@@ -134,6 +134,7 @@ export default function Home() {
             </BlurFade>
           ))}
         </div>
+        
         <BlurFade inView delay={BLUR_FADE_DELAY * 5}>
           <h1 className="text-4xl font-bold text-black dark:text-white pt-20">
             Education

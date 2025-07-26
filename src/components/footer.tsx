@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export function Footer() {
 
     return (
@@ -6,12 +8,17 @@ export function Footer() {
                 <h1 className="text-4xl font-bold text-gray-700 dark:text-white">
                     Kane Viggers
                 </h1>
-                <h1 className="text-md text-gray-500 dark:text-white">
-                    hello@kaneviggers.com
+                <h1 className="text-md text-gray-500 dark:text-white underline">
+                    <Link href="mailto:hello@kaneviggers.com">
+                        hello@kaneviggers.com
+                    </Link>
                 </h1>
                 <h1 className="text-md text-gray-500 dark:text-white">
+                    © 2025 Kane Viggers. All rights reserved.
+                </h1>
+                {/* <h1 className="text-md text-gray-500 dark:text-white">
                     +64 27 772 6805
-                </h1>
+                </h1> */}
             </div>
         </div>
     );
