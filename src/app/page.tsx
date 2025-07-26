@@ -77,7 +77,7 @@ const education = [
   {
     title: "Auckland University of Technology",
     altText: "Auckland University of Technology",
-    subtitle: "Bachelor of Engineering | Mechatronics",
+    subtitle: "Bachelor of Engineering | Mechatronics (Honours)",
     period: "July 2024 - Present",
     description:
       "I am currently pursuing a Bachelor of Engineering (Honours) in Mechatronics at Auckland University of Technology. This program has allowed me to develop a strong foundation in mechanical, electrical, and software engineering, with a focus on automation, robotics, and embedded systems.",
@@ -142,20 +142,20 @@ export default function Home() {
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 3} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
-            I&apos;m Kane, a software developer originally Queenstown, New
+            I&apos;m Kane, a software developer originally from Queenstown, New
             Zealand.
           </h1>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
-            I&apos;ve been programming since I was 13 across a wide range of fields, 
-            including UI design, AI development in computer vision, frontend and backend development,
+            I&apos;ve been programming since I was 13 across a wide range of fields. 
+            Consisting of UI design, AI development in computer vision, frontend and backend development,
             interactive audiovisual installations and cloud-integrated services.
           </h1>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 5} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
-            I&apos;m currently at AUT, studying Mechatronics Engineering (Honours) full time, 
+            I&apos;m currently at AUT, studying Mechatronics Engineering full time, 
             while also juggling work and the slow errosion of my social life.
           </h1>
         </BlurFade>
