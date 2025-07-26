@@ -1,7 +1,6 @@
 "use client";
 
 import FlickeringGrid from "@/components/ui/flickering-grid";
-import WordRotate from "@/components/ui/word-rotate";
 import BlurFade from "@/components/ui/blur-fade";
 import { Separator } from "@/components/ui/separator";
 import { ResumeCard } from "@/components/jobCard";
@@ -156,7 +155,7 @@ export default function Home() {
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 5} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
-            I'm currently at AUT, studying Mechatronics Engineering (Honours) full time, 
+            I&apos;m currently at AUT, studying Mechatronics Engineering (Honours) full time, 
             while also juggling work and the slow errosion of my social life.
           </h1>
         </BlurFade>

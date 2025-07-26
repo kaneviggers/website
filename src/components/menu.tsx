@@ -1,20 +1,13 @@
 "use client";
 
 import { Dock, DockIcon } from "@/components/ui/dock";
-import { Moon, Sun } from "lucide-react"
 import {
   HomeIcon,
-  // BadgeCheck,
-  BriefcaseBusiness,
-  // FolderOpen,
   Phone,
-  Github,
   Linkedin,
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { Button } from "./ui/button";
-import { useState, useEffect } from "react";
 
 export function Menu() {
   const currentPath = usePathname();
