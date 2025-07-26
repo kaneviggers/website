@@ -134,7 +134,7 @@ export default function Home() {
       <div className="flex-1 space-y-4 max-w-[800px] mx-auto px-8 sm:px-6 lg:px-8">
         <BlurFade inView delay={BLUR_FADE_DELAY * 1}>
           <h1 className="text-4xl font-bold text-black dark:text-white">
-            Who am I?
+            Kia ora! 👋
           </h1>
         </BlurFade>
         <BlurFade inView delay={BLUR_FADE_DELAY * 2}>
