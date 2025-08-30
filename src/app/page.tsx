@@ -75,7 +75,7 @@ const featured_work = [
     subtitle: "AI ad campign",
     period: "2025",
     description:
-      "I attended Wakatipu High School, where I successfully completed all three levels of NCEA without failing a class. My strengths were in computer programming, mathematics, and physics, where I consistently excelled and deepened my technical and problem-solving skills.",
+      "For Skinny's new AI ambassador Liz, I developed AI tools to recreate her likeness in AI generated images and videos. The brunt of the work mostly consisted of R&D to create the best results for the client.",
     logoUrl:
       "/images/skinny.png",
     herf: "www.skinny.co.nz",
