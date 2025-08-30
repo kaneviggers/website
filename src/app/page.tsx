@@ -17,6 +17,7 @@ const jobs = [
     herf: "www.ghost.st",
     logo_size_x: 30,
     logo_size_y: 30,
+    badges: ["Twig", "JavaScript", "Svelte"]
   },
   {
     title: "CreaturePost",
@@ -28,6 +29,7 @@ const jobs = [
     logoUrl:
       "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgdmlld0JveD0iMCAwIDYwIDYwIj4KICA8ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSguNSAuNSkiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICA8Y2lyY2xlIGZpbGw9IiMwMDAiIGN4PSIyOS41IiBjeT0iMjkuNSIgcj0iMjkuNSIvPgogICAgPHBhdGggZD0iTTQgMjguNzYxMzc1MzRjOS4zMTA5Njc2NCAxLjkwOTc2OTkyIDE2LjQ5MDMxNiAyLjA0MTYyMzc0IDIxLjUzODA0NTEuMzk1NTYxNDcgNy41NzE1OTM3LTIuNDY5MDkzNCAxNC4zMzU4NDk2LTMuODAzNDQyNjUgMTkuMDUyMTg4LTMuMzYyNTk0NDMgMy4xNDQyMjU2LjI5Mzg5ODgxIDYuNjA4MzExNiAyLjA2MjU4NTg1IDEwLjM5MjI1NzkgNS4zMDYwNjExMi04LjQyNDU1NDYtMS40ODEzNzAxOS0xNC41NDA5MDQ3LTEuNzU0NDQ5OTctMTguMzQ5MDUwNS0uODE5MjM5MzUtNS43MTIyMTg2IDEuNDAyODE1OTMtMTIuNTQ5OTI3MSAzLjgwNjQ0NzQ2LTE3LjI4NjMzNjkgMy44MDY0NDc0Ni00LjczNjQwOTggMC04LjU2NTMxNDA0LS42NDc3NTA2OS0xMC44NTg1MTk1OC0yLjAwNjM1MzAyQzYuOTU5NzgwMzMgMzEuMTc1NTIzNyA1LjQ2MzU4NTY1IDMwLjA2ODg5NTk1IDQgMjguNzYxMzc1MzR6IiBmaWxsPSIjREQ2MTQwIi8+CiAgICA8cGF0aCBkPSJNMTYuNzc0NzY4OSAzNC4wMzI2NjY1NWMtMS41NTcwMjM3LTIuMzUwMTg4ODctMi4zMzU1MzU2LTQuMjQ0ODYzMjEtMi4zMzU1MzU2LTUuNjg0MDIzMDEgMC0xLjQzOTE1OTc5LjA1NDY2MjQtMi41NTUzNzQzLjE2Mzk4NzItMy4zNDg2NDM1NC0xLjkwMzE4MjE2IDEuMjg5MDYyNS0zLjE0MTc2OTA0IDIuODA4Nzc5NzYtMy43MTU3NjA2OSA0LjU1OTE1MTc5LS41NzM5OTE2NSAxLjc1MDM3MjAyLS44MzM2NTYyOSAyLjg0OTQxNjItLjc3ODk5MzkxIDMuMjk3MTMyNTUuODgzNjA1NzEuMjkzMzU5NDMgMS45MTYwODU0OC41NTQwMTEwNiAzLjA5NzQzOTMyLjc4MTk1NDkxIDEuMTgxMzUzODguMjI3OTQzODUgMi4zNzA5NzUwOC4zNTk0MTk2MiAzLjU2ODg2MzY4LjM5NDQyNzN6TTQyLjc0OTM2OTUyIDI1LjY5ODgzMTM2YzEuNDMyNTIzMjggMi4zNzM5MzI3IDIuMTExMzE4ODQgNC4yNzk0OTI3OCAyLjAzNjM4NjQ3IDUuNzE2NjgwMjYtLjA3NDkzMjI4IDEuNDM3MTg3NDctLjE4NzYzNzMzIDIuNTQ4OTk2NjYtLjMzODExNTE3IDMuMzM1NDI3NTQgMS45Njc2OTEwNC0xLjE4NzE3NTk0IDMuMjgzNzA3MTUtMi42Mzk2NTI2NCAzLjk0ODA0ODMzLTQuMzU3NDMwMS42NjQzNDEwOS0xLjcxNzc3NzQ0Ljk2MjY1MjY2LTIuNzgzMzQwMzQuODk0OTM0NzQtMy4xOTY2ODg2Ni0uNzc2MDE2NTQtLjQ0OTMzMS0xLjc0Nzk1ODA1LS44MTg4ODU3Mi0yLjkxNTgyNDY0LTEuMTA4NjY0Mi0xLjE2Nzg2NjU4LS4yODk3Nzg0Ni0yLjM3NjM0MzE2LS40MTk1NTM0MS0zLjYyNTQyOTczLS4zODkzMjQ4NHoiIGZpbGw9IiNGREY4RjYiLz4KICA8L2c+Cjwvc3ZnPg==",
     herf: "www.creaturepost.co.nz",
+    badges: ["JavaScript", "Python"]
   },
   {
     title: "DeepFocus",
@@ -39,6 +41,7 @@ const jobs = [
     logoUrl:
       "https://static1.squarespace.com/static/5f0a3f92afd11c2196107cf7/t/622a8fa77ad6a91f9ac202b7/1622070244599/deep+logo.png?format=1500w",
     herf: "www.deepfocus.co.nz",
+    badges: ["JavaScript", "Python", "GCP", "API"]
   },
   {
     title: "AI Startup",
@@ -49,17 +52,35 @@ const jobs = [
       "As the lead developer in R&D, I advanced the development of AI-driven image analysis models to detect invasive vegetation in satellite imagery. In addition to my work in machine learning, I played a key role in preliminary UI/UX design and website development, ensuring intuitive and effective user experiences. I also managed administrative tasks, collaborating with external partners to support project goals and streamline operations.",
     logoUrl: "",
     herf: "",
-  }
+    badges: ["CNN Training", "Next.js"]
+  },
+];
+
+const featured_work = [
   // {
-  //   title: "KM Events",
-  //   altText: "OneFineDay International",
-  //   subtitle: "Web developer",
-  //   period: "June 2022 - December 2024",
+  //   title: "Payap",
+  //   altText: "Payap",
+  //   subtitle: "Payment QR Generation",
+  //   period: "2025",
   //   description:
-  //     "At KM Events, a full-service wedding planning company, I was responsible for designing and developing custom websites tailored to individual weddings. These websites served as a central hub for guests, providing event details, RSVPs, and personalized content. By creating seamless, user-friendly experiences, I helped enhance the digital presence of each event while ensuring a smooth and engaging experience for both clients and their guests.",
-  //   logoUrl: "/images/km_events.png",
-  //   herf: "www.onefineday.co.nz",
+  //     "I attended Wakatipu High School, where I successfully completed all three levels of NCEA without failing a class. My strengths were in computer programming, mathematics, and physics, where I consistently excelled and deepened my technical and problem-solving skills.",
+  //   logoUrl:
+  //     "/images/payap.png",
+  //   herf: "www.payap.com",
+  //   badges: ["JavaScript", "Python", "API"]
   // },
+  {
+    title: "Skinny Mobile",
+    altText: "Skinny Mobile",
+    subtitle: "AI ad campign",
+    period: "2025",
+    description:
+      "I attended Wakatipu High School, where I successfully completed all three levels of NCEA without failing a class. My strengths were in computer programming, mathematics, and physics, where I consistently excelled and deepened my technical and problem-solving skills.",
+    logoUrl:
+      "/images/skinny.png",
+    herf: "www.skinny.co.nz",
+    badges: ["AI Image Generation"]
+  }
 ];
 
 const education = [
@@ -90,7 +111,6 @@ const education = [
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Home() {
-
   return (
     <div>
       {/* Hero Section */}
@@ -103,31 +123,6 @@ export default function Home() {
           maxOpacity={0.4}
           flickerChance={0.1}
         />
-        {/* <BlurFade inView className="flex flex-col items-center justify-center">
-          <h1 className="text-4xl font-bold text-black dark:text-white">
-            Let’s start creating
-          </h1>
-          <WordRotate
-            className="text-4xl font-bold text-black dark:text-white"
-            words={[
-              "a website",
-              "an API",
-              "a mobile app",
-              "interactive visual art",
-              "cloud infrastructure",
-              "AI image models",
-              "Neural Networks",
-              "the future",
-            ]}
-            duration={3000}
-            framerProps={{
-              initial: { opacity: 0, y: -20 },
-              animate: { opacity: 1, y: 0 },
-              exit: { opacity: 0, y: 20 },
-              transition: { duration: 0.3, ease: "easeOut" },
-            }}
-          />
-        </BlurFade> */}
         <div className="absolute bottom-0 w-full h-32 bg-gradient-to-t from-background to-transparent"></div>
       </div>
 
@@ -148,20 +143,22 @@ export default function Home() {
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
-            I&apos;ve been programming since I was 13 across a wide range of fields. 
-            Consisting of UI design, AI development in computer vision, frontend and backend development,
-            interactive audiovisual installations and cloud-integrated services.
+            I&apos;ve been programming since I was 13 across a wide range of
+            fields. Consisting of UI design, AI development in computer vision,
+            frontend and backend development, interactive audiovisual
+            installations and cloud-integrated services.
           </h1>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 5} inView>
           <h1 className="text-lg font-bold text-gray-500 dark:text-white">
-            I&apos;m currently at AUT, studying Mechatronics Engineering full time, 
-            while also juggling work and the slow errosion of my social life.
+            I&apos;m currently at AUT, studying Mechatronics Engineering full
+            time, while also juggling work and the slow errosion of my social
+            life.
           </h1>
         </BlurFade>
 
         <BlurFade inView delay={BLUR_FADE_DELAY * 6}>
-          <h1 className="text-4xl font-bold text-black dark:text-white pt-20">
+          <h1 className="text-4xl font-bold text-black dark:text-white pt-10">
             Work experience
           </h1>
         </BlurFade>
@@ -178,7 +175,7 @@ export default function Home() {
                 title={job.title}
                 subtitle={job.subtitle}
                 href={job.herf}
-                badges={[]}
+                badges={job.badges || []}
                 period={job.period}
                 description={job.description}
                 logo_size_x={job.logo_size_x ?? 0}
@@ -189,7 +186,33 @@ export default function Home() {
         </div>
 
         <BlurFade inView delay={BLUR_FADE_DELAY * 13}>
-          <h1 className="text-4xl font-bold text-black dark:text-white pt-20">
+          <h1 className="text-4xl font-bold text-black dark:text-white pt-10">
+            Featured Work
+          </h1>
+        </BlurFade>
+        <BlurFade inView delay={BLUR_FADE_DELAY * 14}>
+          <Separator />
+        </BlurFade>
+        <div className="flex flex-col gap-3">
+          {featured_work.map((job, index) => (
+            <BlurFade key={index} inView delay={BLUR_FADE_DELAY * (index + 15)}>
+              <ResumeCard
+                key={index}
+                logoUrl={job.logoUrl}
+                altText={job.altText}
+                title={job.title}
+                subtitle={job.subtitle}
+                href={job.herf}
+                badges={job.badges || []}
+                period={job.period}
+                description={job.description}
+              />
+            </BlurFade>
+          ))}
+        </div>
+
+        <BlurFade inView delay={BLUR_FADE_DELAY * 13}>
+          <h1 className="text-4xl font-bold text-black dark:text-white pt-10">
             Education
           </h1>
         </BlurFade>
@@ -198,11 +221,7 @@ export default function Home() {
         </BlurFade>
         <div className="flex flex-col gap-3">
           {education.map((school, index) => (
-            <BlurFade
-              key={index}
-              inView
-              delay={BLUR_FADE_DELAY * (index + 15)}
-            >
+            <BlurFade key={index} inView delay={BLUR_FADE_DELAY * (index + 15)}>
               <ResumeCard
                 key={index}
                 logoUrl={school.logoUrl}
