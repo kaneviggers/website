@@ -3,8 +3,8 @@
 import { Dock, DockIcon } from "@/components/ui/dock";
 import {
   HomeIcon,
-  Phone,
   Linkedin,
+  FolderOpen
 } from "lucide-react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
@@ -41,19 +41,6 @@ export function Menu() {
           </Link>
         </DockIcon>
 
-        {/* Skills Button */}
-        {/* <DockIcon>
-          <Link href="/skills">
-            <div
-              className={`p-2 ${
-                currentPath === "/skills" ? "bg-gray-100" : ""
-              } rounded-full`}
-            >
-              <BadgeCheck />
-            </div>
-          </Link>
-        </DockIcon> */}
-
         {/* CV Button */}
         {/* <DockIcon>
           <Link href="/cv">
@@ -68,7 +55,7 @@ export function Menu() {
         </DockIcon> */}
 
         {/* Projects Button */}
-        {/* <DockIcon>
+        <DockIcon>
           <Link href="/projects">
             <div
               className={`p-2 ${
@@ -78,11 +65,11 @@ export function Menu() {
               <FolderOpen />
             </div>
           </Link>
-        </DockIcon> */}
+        </DockIcon>
 
         {/* Contact Button */}
-        <DockIcon>
-          {/* <Link
+        {/* <DockIcon>
+          <Link
             href="/contact"
             className={`${
               process.env.NEXT_PUBLIC_IS_PREVIEW! == "true"
@@ -97,11 +84,11 @@ export function Menu() {
             >
               <Phone />
             </div>
-          </Link> */}
+          </Link>
           <Link href="https://app.usemotion.com/meet/kaneviggers/meeting">
             <Phone />
           </Link>
-        </DockIcon>
+        </DockIcon> */}
 
         {/* <DockIcon>
           <Link href="https://github.com/kaneviggers">
