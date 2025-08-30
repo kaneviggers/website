@@ -3,9 +3,7 @@
 import { Dock, DockIcon } from "@/components/ui/dock";
 import {
   HomeIcon,
-  Phone,
   Linkedin,
-  Award,
   FolderOpen
 } from "lucide-react";
 import { usePathname } from "next/navigation";
